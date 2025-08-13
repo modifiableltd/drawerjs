@@ -19,7 +19,7 @@ HTML:
         <div class="drawer-handle"></div>
         <div class="drawer-header">
             <h5 class="drawer-title">Drawer Title</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="drawer" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
         </div>
         <div class="drawer-body">
             Drawer body; can include text, forms or any other component.
