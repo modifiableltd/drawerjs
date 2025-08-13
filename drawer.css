@@ -19,7 +19,7 @@
     z-index: 1060;
     opacity: 0;
     visibility: hidden;
-    transition: var(--transition);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -34,7 +34,7 @@
     width: 100%;
     min-height: 200px;
     max-height: 90vh;
-    background: var(--bs-body-bg)
+    background: var(--bs-body-bg);
     border: 1px solid var(--bs-border-color);
     border-bottom: none;
     border-radius: var(--bs-border-radius-xl) var(--bs-border-radius-xl) 0 0;
