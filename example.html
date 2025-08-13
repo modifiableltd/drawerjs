@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="drawer.css">
+</head>
+<body>
+    <button class="btn btn-primary" type="button" data-bs-toggle="drawer" data-bs-target="#exampleDrawer">Toggle Drawer</button>
+    <div class="drawer-overlay" id="exampleOverlay">
+        <div class="drawer" id="exampleDrawer">
+            <div class="drawer-handle"></div>
+            <div class="drawer-header">
+                <h5 class="drawer-title">Drawer Title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+            </div>
+            <div class="drawer-body">
+                Drawer body; can include text, forms or any other component.
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="drawer.js"></script>
+    <script>
+        const exampleDrawer = new Drawer('#exampleDrawer', {
+            backdrop: true,
+            keyboard: true,
+            swipeThreshold: 100,
+            animationDuration: 300,
+            autoFocus: true,
+            showOnLoad: false,
+        });
+    </script>
+</body>
+</html>
