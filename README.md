@@ -60,5 +60,8 @@ Toggles if the first input should be autofocused upon drawer open. Default: `tru
 ### `showOnLoad` *`bool`*
 Toggles if the drawer should open on load (DOMContentLoaded event). Default: `false`
 
+## Non-Bootstrap
+To use this in a non-boostrapped stack, simply replace the `drawer.css` -> `--bs-*` CSS varables with values of your choosing.
+
 ## About
 This library was created for use in an internal project (modifiable.co.uk) and has been transformed into a standalone library. Any issues, vulnerabilities or feature requests are accepted! Under the MIT License.
