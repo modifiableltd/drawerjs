@@ -1,5 +1,5 @@
 /**
- * Drawer - Multi-instance sliding drawer component
+ * DrawerJS by Modifiable LTD 2025
  */
 class Drawer {
     static instances = new Map();
